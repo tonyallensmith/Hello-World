@@ -1,0 +1,9 @@
+print (format (123.456789, '.2f'))  #Output: "12345.68"
+print ('{:.2f}'.format (12.34567)) # Output: "12.346"
+
+print ('{:,}' .format (9876543210)) #output: "9,876,543,210"
+
+print('{:.1%}'.format (0.789))  Output: "79%"
+
+print('{:>10}'.format(123)) #Output: "     12345"
+

@@ -1,1 +1,6 @@
 a = 5 b = 2 addition = a + b subtraction a - b multiplication = a * b division = a / b
+is_a_greater = a > b
+complex_condition = (a > b) and (a % 2 == 0)
+import math
+# example
+print (math.ceil (42.1)) # output: 43

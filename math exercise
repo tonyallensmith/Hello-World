@@ -1,0 +1,25 @@
+def absolute_difference (num1, num2)
+  return abs (num1 - num2)
+
+# Testing the function
+result = absolute_difference (-10, 5)
+print (f"The absolute difference between -10, 5 is: {result}") #output: 15
+
+def find_extremes (num_list):
+  return max (num_list), min (num_list)
+
+# Testing the function
+highest, lowest = find_extremes [1, 42, 3, 7])
+print (f"The highest number is: {highest}") # Output: 42
+print (f"The lowest number is: {lowest}") # Output 1
+
+import math
+
+def find_sqrt (num):
+  if num < 0:
+    return "square root of negative numbers is not supported."
+  return math.sqrt (num)
+
+#Testing the function
+result - find_sqrt (16)
+print (f"The square root of 16 is: {result}") # Output: 4.0
